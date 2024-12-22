@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BALANCE SHEET</title>
+  <link rel="stylesheet" href="balance.css">
+</head>
+<body>
+  <div class="sheet-container">
+    <div class="sheet-header">
+      <div class="header-left">
+        <h2>BALANCE SHEET</h2>
+        <p>Consolidated Figures in Rs. Crores/ <a href="">view standalone</a></p>
+      </div>
+      <div class="header-right">
+        <button id="corp">Corporate Action</button>
+      </div>
+    </div>
+    <div class="table-container">
+      <table class="scrollable-table">
+        <thead>
+          <tr>
+            <th class="fixed-column">Particulars</th>
+            <th>Mar 2013</th>
+            <th>Mar 2014</th>
+            <th>Mar 2015</th>
+            <th>Mar 2016</th>
+            <th>Mar 2017</th>
+            <th>Mar 2018</th>
+            <th>Mar 2019</th>
+            <th>Mar 2020</th>
+            <th>Mar 2021</th>
+            <th>Mar 2022</th>
+            <th>Mar 2023</th>
+            <th>Mar 2024</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="fixed-column">Equity Capital</td>
+            <td>476</td>
+            <td>480</td>
+            <td>501</td>
+            <td>506</td>
+            <td>513</td>
+            <td>519</td>
+            <td>545</td>
+            <td>548</td>
+            <td>551</td>
+            <td>555</td>
+            <td>558</td>
+            <td>760</td>
+          </tr>
+          <tr>
+            <td class="fixed-column">Reserves</td>
+            <td>36,167</td>
+            <td>43,687</td>
+            <td>62,653</td>
+            <td>73,798</td>
+            <td>91,281</td>
+            <td>109,080</td>
+            <td>153,128</td>
+            <td>175,810</td>
+            <td>209,259</td>
+            <td>246,772</td>
+            <td>288,880</td>
+            <td>455,636</td>
+          </tr>
+          <tr>
+            <td class="fixed-column" id="borrowings-row">Borrowings+</td>
+            <td>335,588</td>
+            <td>416,677</td>
+            <td>509,762</td>
+            <td>649,587</td>
+            <td>741,550</td>
+            <td>944,817</td>
+            <td>1,080,235</td>
+            <td>1,333,041</td>
+            <td>1,511,418</td>
+            <td>1,784,970</td>
+            <td>2,139,212</td>
+            <td>3,107,503</td>
+          </tr>
+          <tr class="other-borrowings" style="display: none;">
+            <td class="fixed-column">Other Borrowings</td>
+            <td>335,588</td>
+            <td>416,677</td>
+            <td>509,762</td>
+            <td>649,587</td>
+            <td>741,550</td>
+            <td>944,817</td>
+            <td>1,080,235</td>
+            <td>1,333,041</td>
+            <td>1,511,418</td>
+            <td>1,784,970</td>
+            <td>2,139,212</td>
+            <td>3,107,503</td>
+          </tr>
+          <tr>
+            <td class="fixed-column" id="liabilities-row">Other Liabilities+</td>
+            <td>35, 492</td>
+            <td>42,776</td>
+            <td>34,181</td>
+            <td>38,321</td>
+            <td>59,000</td>
+            <td>48,770</td>
+            <td>58,898</td>
+            <td>71,430</td>
+            <td>78,279</td>
+            <td>90,639</td>
+            <td>101,783</td>
+            <td>466,296</td>
+          </tr>
+          <tr class="other-liabilities" style="display: none;">
+            <td class="fixed-column">Non Controlling Int</td>
+            <td>221</td>
+            <td>152</td>
+            <td>162</td>
+            <td>181</td>
+            <td>291</td>
+            <td>356</td>
+            <td>502</td>
+            <td>577</td>
+            <td>633</td>
+            <td>720</td>
+            <td>860</td>
+            <td>13,383</td>
+          </tr>
+          <tr class="other-liabilities" style="display: none;">
+            <td class="fixed-column">Trade Payables</td>
+            <td>5,479</td>
+            <td>5,611</td>
+            <td>6,085</td>
+            <td>7,378</td>
+            <td>16,667</td>
+            <td>8,222</td>
+            <td>7,040</td>
+            <td>7,584</td>
+            <td>12,424</td>
+            <td>13,094</td>
+            <td>11,791</td>
+            <td>13,933</td>
+          </tr>
+          <tr class="other-liabilities" style="display: none;">
+            <td class="fixed-column">Other Liability Items</td>
+            <td>29,792</td>
+            <td>37,013</td>
+            <td>27,934</td>
+            <td>30,762</td>
+            <td>42,042</td>
+            <td>40,192</td>
+            <td>51,355</td>
+            <td>63,270</td>
+            <td>65,222</td>
+            <td>76,824</td>
+            <td>89,132</td>
+            <td>438,980</td>
+          </tr>
+          <tr>
+            <td class="fixed-column"><b>Total Liabilities</b></td>
+            <td><b>407,723</b></td>
+            <td><b>503,620</b></td>
+            <td><b>607,097</b></td>
+            <td><b>762,212</b></td>
+            <td><b>892,344</b></td>
+            <td><b>1,103,186</b></td>
+            <td><b>1,292,806</b></td>
+            <td><b>1,580,830</b></td>
+            <td><b>1,799507</b></td>
+            <td><b>2,122,934</b></td>
+            <td><b>2,530,432</b></td>
+            <td><b>4,030,194</b></td>
+          </tr>
+          <tr>
+            <td class="fixed-column" id="fixedassetrow"><a href="#"></a>Fixed Assets+</td>
+            <td>2,773</td>
+            <td>3,026</td>
+            <td>3,225</td>
+            <td>3,667</td>
+            <td>4,000</td>
+            <td>4,008</td>
+            <td>4,369</td>
+            <td>4,776</td>
+            <td>5,248</td>
+            <td>6,432</td>
+            <td>8,431</td>
+            <td>12,604</td>
+          </tr>
+
+          <tr>
+            <tr class="fixed-assets" style="display: none;">
+              <td class="fixed-column "><a href="#"></a>BUILDING</td>
+              <td>1,164</td>
+              <td>1,444</td>
+              <td>1,503</td>
+              <td>1,579</td>
+              <td>1,638</td>
+              <td>1,729</td>
+              <td>1,826</td>
+              <td>1,891</td>
+              <td>2,056</td>
+              <td>2,209</td>
+              <td>2,463</td>
+              <td>5,055</td>
+          </tr>
+          <tr class="fixed-assets" style="display: none;">
+              <td class="fixed-column "><a href="#"></a>Other Fixed Assets</td>
+              <td>5,486</td>
+              <td>6,437</td>
+              <td>7,170</td>
+              <td>8,132</td>
+              <td>9,097</td>
+              <td>9,863</td>
+              <td>11,183</td>
+              <td>12,305</td>
+              <td>13,259</td>
+              <td>15,468</td>
+              <td>19,360</td>
+              <td>25,212</td>
+          </tr>
+          <tr class="fixed-assets" style="display: none;">
+              <td class="fixed-column "><a href="#"></a><b>GROSS BLOCK</b></td>
+              <td><strong>7,010</strong></td>
+              <td><strong>7,882</strong></td>
+              <td><strong>8,673</strong></td>
+              <td><strong>9,710</strong></td>
+              <td><strong>10,736</strong></td>
+              <td><strong>11,592</strong></td>
+              <td><strong>13,014</strong></td>
+              <td><strong>14,196</strong></td>
+              <td><strong>15,315</strong></td>
+              <td><strong>17,677</strong></td>
+              <td><strong>21,822</strong></td>
+              <td><strong>30,266</strong></td>
+          </tr>
+          <tr class="fixed-assets" style="display: none;">
+              <td class="fixed-column">Accumulated Depreciation</td>
+              <td>4,193</td>
+              <td>4,811</td>
+              <td>5,404</td>
+              <td>5,999</td>
+              <td>6,692</td>
+              <td>7,539</td>
+              <td>8,601</td>
+              <td>9,376</td>
+              <td>10,066</td>
+              <td>11,245</td>
+              <td>13,391</td>
+              <td>17,663</td>
+          </tr>
+
+
+          <tr>
+            <td class="fixed-column">CWIP</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td class="fixed-column">Investments</td>
+            <td>110,960</td>
+            <td>119,571</td>
+            <td>149,454</td>
+            <td>193,634</td>
+            <td>210,777</td>
+            <td>238,461</td>
+            <td>289,446</td>
+            <td>389,305</td>
+            <td>438,823</td>
+            <td>449,264</td>
+            <td>511,582</td>
+            <td>1,005,682</td>
+          </tr>
+          <tr>
+            <td class="fixed-column"  id="otherassetsrow">Other Assets+</td>
+            <td>293,989</td>
+            <td>381,023</td>
+            <td>454,417</td>
+            <td>564,912</td>
+            <td>677,567</td>
+            <td>860,717</td>
+            <td>998,991</td>
+            <td>1,186,750</td>
+            <td>1,355,435</td>
+            <td>1,667,238</td>
+            <td>2,010,419</td>
+            <td>3,011,909</td>
+          </tr>
+
+          <tr  class="other-assets" style="display: none;">
+            <td class="fixed-column ">Cash Equivalents</td>
+            <td>27,531</td>
+            <td>39,913</td>
+            <td>36,526</td>
+            <td>39,069</td>
+            <td>49,311</td>
+            <td>123,062</td>
+            <td>81,818</td>
+            <td>87,940</td>
+            <td>121,273</td>
+            <td>155,386</td>
+            <td>197,148</td>
+            <td>228,835</td>
+          </tr>
+
+          <tr  class="other-assets" style="display: none;">
+            <td class="fixed-column ">LOANS n ADVANCES</td>
+            <td>1,592</td>
+            <td>1,281</td>
+            <td>1,514</td>
+            <td>1,763</td>
+            <td>1,727</td>
+            <td>1,830</td>
+            <td>1,955</td>
+            <td>2,656</td>
+            <td>3,527</td>
+            <td>4,289</td>
+            <td>5,201</td>
+            <td>17,439</td>
+          </tr>
+
+
+          
+          <tr  class="other-assets" style="display: none;">
+            <td class="fixed-column ">OTHER ASSET ITEMS</td>
+            <td>264,867</td>
+            <td>339,828</td>
+            <td>416,377</td>
+            <td>524,080</td>
+            <td>626,529</td>
+            <td>735,825</td>
+            <td>915,219</td>
+            <td>1,096,154</td>
+            <td>1,230,636</td>
+            <td>1,507,563</td>
+            <td>1,808,070</td>
+            <td>2,765,635</td>
+          </tr>
+          <tr>
+            <td class="fixed-column"><b>Total Assets</b></td>
+            <td><b>407,723</b></td>
+            <td><b>503,620</b></td>
+            <td><b>607,097</b></td>
+            <td><b>762,212</b></td>
+            <td><b>892,344</b></td>
+            <td><b>1,103,186</b></td>
+            <td><b>1,292,806</b></td>
+            <td><b>1,580,830</b></td>
+            <td><b>1,799507</b></td>
+            <td><b>2,122,934</b></td>
+            <td><b>2,530,432</b></td>
+            <td><b>4,030,194</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script>
+    document.getElementById('borrowings-row').addEventListener('click', function() {
+      const otherBorrowingsRow = document.querySelector('.other-borrowings');
+      if (otherBorrowingsRow.style.display === 'none' || otherBorrowingsRow.style.display === '') {
+        otherBorrowingsRow.style.display = 'table-row';
+      } else {
+        otherBorrowingsRow.style.display = 'none';
+      }
+    });
+
+    document.getElementById('liabilities-row').addEventListener('click', function() {
+      const otherLiabilitiesRows = document.querySelectorAll('.other-liabilities');
+      otherLiabilitiesRows.forEach(row => {
+        if (row.style.display === 'none' || row.style.display === '') {
+          row.style.display = 'table-row';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    });
+
+    document.getElementById('fixedassetrow').addEventListener('click', function() {
+    const fixedAssetsRows = document.querySelectorAll('.fixed-assets');
+    fixedAssetsRows.forEach(row => {
+        if (row.style.display === 'none' || row.style.display === '') {
+            row.style.display = 'table-row';
+        } else {
+            row.style.display = 'none';
+        }
+    });
+});
+
+document.getElementById('otherassetsrow').addEventListener('click', function() {
+    const otherAssetsRows = document.querySelectorAll('.other-assets');
+    otherAssetsRows.forEach(row => {
+        if (row.style.display === 'none' || row.style.display === '') {
+            row.style.display = 'table-row';
+        } else {
+            row.style.display = 'none';
+        }
+    });
+});
+  </script>
+</body>
+</html>
